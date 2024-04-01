@@ -1,0 +1,103 @@
+{
+    "cinemas":[
+        {
+            "id":"345sdfcg",
+            "name":"cc.viva",
+            "rooms":[
+                {
+                    "idroom":"23",
+                    "type":"A34"
+                },
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                }
+            ],
+            "movies":[ 
+                "823464", "763215","1011985","940551","615"
+            ]
+        },
+        {
+            "id":"23era",
+            "name":"unicentro",
+            "rooms":[
+                {
+                    "idroom":"23",
+                    "type":"A34"
+                },
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                }
+            ],
+            "movies":[ 
+                "823464", "763215","1011985","940551","615"
+            ]
+        },
+        {
+            "id":"b67d",
+            "name":"Megamall",
+            "rooms":[
+                {
+                    "idroom":"23",
+                    "type":"A34"
+                },
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                }
+            ],
+            "movies":[ 
+                "823464", "763215","1011985","940551","615"
+            ]
+        },
+        {
+            "id":"b32a9",
+            "name":"Caracoli",
+            "rooms":[
+                {
+                    "idroom":"23",
+                    "type":"A34"
+                },
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                }
+            ],
+            "movies":[ 
+                "823464", "763215","1011985","940551","615"
+            ]
+        }
+    ],
+
+    "typeRooms":[
+        {
+            "id":"A34",
+            "seats":250,
+            "type":"big"
+        },
+        
+        {
+            "id":"3bd",
+            "seats":85,
+            "type":"small"
+        },
+        {
+            "id":"df45",
+            "seats":300,
+            "type":"max"
+        }
+    ],
+    "funtion":[
+        {
+            "id":"b3876ac",
+            "schedule":"17:00",
+            "movie_id":"823464"
+        }
+
+    ],
+
+    "purchased_tickets":{
+
+    }
+}

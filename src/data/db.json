@@ -69,7 +69,6 @@
             ]
         }
     ],
-
     "typeRooms":[
         {
             "id":"A34",
@@ -91,6 +90,7 @@
     "funtion":[
         {
             "id":"b3876ac",
+            "cinema_id":2,
             "schedule":"17:00",
             "movie_id":"823464"
         }
@@ -99,5 +99,10 @@
 
     "purchased_tickets":{
 
+        "id":"98caf2",
+        "idFuntion":"A12",
+        "codigoCompra":"alknmjhg",
+        "fecha":"12/09/2023",
+        "hora":"14:00"
     }
 }

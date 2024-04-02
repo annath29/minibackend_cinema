@@ -12,60 +12,6 @@
                     "idroom":"11",
                     "type":"3bd"
                 }
-            ],
-            "movies":[ 
-                "823464", "763215","1011985","940551","615"
-            ]
-        },
-        {
-            "id":"23era",
-            "name":"unicentro",
-            "rooms":[
-                {
-                    "idroom":"23",
-                    "type":"A34"
-                },
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                }
-            ],
-            "movies":[ 
-                "823464", "763215","1011985","940551","615"
-            ]
-        },
-        {
-            "id":"b67d",
-            "name":"Megamall",
-            "rooms":[
-                {
-                    "idroom":"23",
-                    "type":"A34"
-                },
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                }
-            ],
-            "movies":[ 
-                "823464", "763215","1011985","940551","615"
-            ]
-        },
-        {
-            "id":"b32a9",
-            "name":"Caracoli",
-            "rooms":[
-                {
-                    "idroom":"23",
-                    "type":"A34"
-                },
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                }
-            ],
-            "movies":[ 
-                "823464", "763215","1011985","940551","615"
             ]
         }
     ],
@@ -73,36 +19,43 @@
         {
             "id":"A34",
             "seats":250,
+            "row":14,
+            "col":15,
             "type":"big"
         },
+        
         
         {
             "id":"3bd",
             "seats":85,
+            "row":7,
+            "col":13,
             "type":"small"
         },
         {
             "id":"df45",
             "seats":300,
+            "row":28,
+            "col":11,
             "type":"max"
         }
     ],
+
     "funtion":[
         {
             "id":"b3876ac",
-            "cinema_id":2,
+            "cinema_id":"345sdfcg",
             "schedule":"17:00",
-            "movie_id":"823464"
+            "movie_id":"823464",
+            "idroom":"23",
+            "date":"12/04/24"
         }
 
     ],
 
     "purchased_tickets":{
-
         "id":"98caf2",
         "idFuntion":"A12",
-        "codigoCompra":"alknmjhg",
-        "fecha":"12/09/2023",
-        "hora":"14:00"
+        "codigoCompra":"alknmjhg"
     }
 }

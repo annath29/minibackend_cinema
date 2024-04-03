@@ -13,8 +13,8 @@
                     "type":"3bd"
                 }
             ],
-            "funtions":["b3876ac"]
-            ]
+            "funtions":["b3876ac","b0001ab","b0002ab","b0003ab","b0004ab","b0007ab","b0009ab"]
+            
         },
 
         {
@@ -29,7 +29,8 @@
                     "idroom":"23",
                     "type":"A34"
                 }
-            ]
+            ],
+            "funtions":["b0003ab","b0006ab","b0008ab","b0010ab","b0013ab","b0014ab","b0017ab"]
 
         },
 
@@ -45,7 +46,8 @@
                     "idroom":"23",
                     "type":"df45"
                 }
-            ]
+            ],
+            "funtions":["b0005ab","b0007ab","b0011ab","b0012ab","b0015ab","b0016ab","b0018ab"]
 
         }
     ],
@@ -83,8 +85,153 @@
             "movie_id":"823464",
             "idroom":"23",
             "date":"12/04/24"
-        }
+        },
 
+        {
+            "id":"b0001ab",
+            "cinema_id":"345sdfcg",
+            "schedule":"14:00",
+            "movie_id":"1011985",
+            "idroom":"11",
+            "date":"16/04/24" 
+        },
+        {
+            "id":"b0002ab",
+            "cinema_id":"345sdfcg",
+            "schedule":"16:00",
+            "movie_id":"359410",
+            "idroom":"11",
+            "date":"13/04/24" 
+        },
+        {
+            "id":"b0003ab",
+            "cinema_id": ["345sdfcg","305sdfcg"],
+            "schedule":"15:00",
+            "movie_id":"634492",
+            "idroom":"11",
+            "date":"13/04/24" 
+        },
+        {
+            "id":"b0004ab",
+            "cinema_id": "345sdfcg",
+            "schedule":"18:00",
+            "movie_id":"763215",
+            "idroom":"23",
+            "date":"13/04/24" 
+        },
+        {
+            "id":"b0005ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"13:00",
+            "movie_id":"940551",
+            "idroom":"23",
+            "date":"10/04/24" 
+        },
+        {
+            "id":"b0006ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"17:00",
+            "movie_id":"1096197",
+            "idroom":"23",
+            "date":"10/04/24" 
+        },
+        {
+            "id":"b0007ab",
+            "cinema_id": ["345sdfcg","301sdfcg"],
+            "schedule":"18:00",
+            "movie_id":"693134",
+            "idroom":"11",
+            "date":"11/04/24" 
+        },
+        {
+            "id":"b0008ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"15:00",
+            "movie_id":"969492",
+            "idroom":"11",
+            "date":"11/04/24" 
+        },
+        {
+            "id":"b0009ab",
+            "cinema_id": "345sdfcg",
+            "schedule":"13:00",
+            "movie_id":"1239251",
+            "idroom":"11",
+            "date":"10/04/24" 
+        },
+        {
+            "id":"b0010ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"13:00",
+            "movie_id":"615",
+            "idroom":"23",
+            "date":"05/04/24" 
+        },
+        {
+            "id":"b0011ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"19:00",
+            "movie_id":"932420",
+            "idroom":"23",
+            "date":"05/04/24" 
+        },
+        {
+            "id":"b0012ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"16:00",
+            "movie_id":"848538",
+            "idroom":"23",
+            "date":"03/04/24" 
+        },
+        {
+            "id":"b0013ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"17:00",
+            "movie_id":"1046090",
+            "idroom":"11",
+            "date":"09/04/24" 
+        },
+        {
+            "id":"b0014ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"19:00",
+            "movie_id":"792307",
+            "idroom":"23",
+            "date":"08/04/24" 
+        },
+        {
+            "id":"b0015ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"19:00",
+            "movie_id":"1072790",
+            "idroom":"11",
+            "date":"08/04/24" 
+        },
+        {
+            "id":"b0016ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"19:00",
+            "movie_id":"438631",
+            "idroom":"11",
+            "date":"10/04/24" 
+        },
+        {
+            "id":"b0017ab",
+            "cinema_id": "305sdfcg",
+            "schedule":"18:00",
+            "movie_id":"1022796",
+            "idroom":"11",
+            "date":"03/04/24" 
+        },
+        {
+            "id":"b0018ab",
+            "cinema_id": "301sdfcg",
+            "schedule":"18:00",
+            "movie_id":"967847",
+            "idroom":"23",
+            "date":"12/04/24" 
+        }
+        
     ],
 
     "purchased_tickets":{

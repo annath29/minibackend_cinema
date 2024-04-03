@@ -13,6 +13,38 @@
                     "type":"3bd"
                 }
             ]
+        },
+
+        {
+            "id":"305sdfcg",
+            "name":"cc.molinos",
+            "rooms":[
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                },
+                {
+                    "idroom":"23",
+                    "type":"A34"
+                }
+            ]
+
+        },
+
+        {
+            "id":"301sdfcg",
+            "name":"cc.oviedo",
+            "rooms":[
+                {
+                    "idroom":"11",
+                    "type":"3bd"
+                },
+                {
+                    "idroom":"23",
+                    "type":"df45"
+                }
+            ]
+
         }
     ],
     "typeRooms":[

@@ -12,6 +12,8 @@
                     "idroom":"11",
                     "type":"3bd"
                 }
+            ],
+            "funtions":["b3876ac"]
             ]
         },
 
@@ -88,6 +90,17 @@
     "purchased_tickets":{
         "id":"98caf2",
         "idFuntion":"A12",
-        "codigoCompra":"alknmjhg"
+        "tickets":[
+            {
+            "type":"adulto",
+            "quantity":2
+            },
+            {
+            "type":"niño",
+            "quantity":2
+            }
+        ],
+        "seatsPay":["A2","A3","A4","A5"],
+        "codPay":"de287f"
     }
 }

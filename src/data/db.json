@@ -1,253 +1,393 @@
 {
-    "cinemas":[
+  "cinemas": [
+    {
+      "id": "345sdfcg",
+      "name": "cc.viva",
+      "rooms": [
         {
-            "id":"345sdfcg",
-            "name":"cc.viva",
-            "rooms":[
-                {
-                    "idroom":"23",
-                    "type":"A34"
-                },
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                }
-            ],
-            "funtions":["b3876ac","b0001ab","b0002ab","b0003ab","b0004ab","b0007ab","b0009ab"]
-            
+          "idroom": "23",
+          "type": "A34"
         },
-
         {
-            "id":"305sdfcg",
-            "name":"cc.molinos",
-            "rooms":[
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                },
-                {
-                    "idroom":"23",
-                    "type":"A34"
-                }
-            ],
-            "funtions":["b0003ab","b0006ab","b0008ab","b0010ab","b0013ab","b0014ab","b0017ab"]
-
-        },
-
-        {
-            "id":"301sdfcg",
-            "name":"cc.oviedo",
-            "rooms":[
-                {
-                    "idroom":"11",
-                    "type":"3bd"
-                },
-                {
-                    "idroom":"23",
-                    "type":"df45"
-                }
-            ],
-            "funtions":["b0005ab","b0007ab","b0011ab","b0012ab","b0015ab","b0016ab","b0018ab"]
-
+          "idroom": "11",
+          "type": "3bd"
         }
-    ],
-    "typeRooms":[
+      ],
+      "funtions": [
+        "b3876ac",
+        "b0001ab",
+        "b0002ab",
+        "b0003ab",
+        "b0004ab",
+        "b0007ab",
+        "b0009ab"
+      ]
+    },
+
+    {
+      "id": "305sdfcg",
+      "name": "cc.molinos",
+      "rooms": [
         {
-            "id":"A34",
-            "seats":250,
-            "row":14,
-            "col":15,
-            "type":"big"
+          "idroom": "31",
+          "type": "3bd"
         },
-        
-        
         {
-            "id":"3bd",
-            "seats":85,
-            "row":7,
-            "col":13,
-            "type":"small"
-        },
-        {
-            "id":"df45",
-            "seats":300,
-            "row":28,
-            "col":11,
-            "type":"max"
+          "idroom": "22",
+          "type": "A34"
         }
-    ],
+      ],
+      "funtions": [
+        "b0003ab",
+        "b0006ab",
+        "b0008ab",
+        "b0010ab",
+        "b0013ab",
+        "b0014ab",
+        "b0017ab"
+      ]
+    },
 
-    "funtion":[
+    {
+      "id": "301sdfcg",
+      "name": "cc.oviedo",
+      "rooms": [
         {
-            "id":"b3876ac",
-            "cinema_id":"345sdfcg",
-            "schedule":"17:00",
-            "movie_id":"823464",
-            "idroom":"23",
-            "date":"12/04/24"
-        },
-
-        {
-            "id":"b0001ab",
-            "cinema_id":"345sdfcg",
-            "schedule":"14:00",
-            "movie_id":"1011985",
-            "idroom":"11",
-            "date":"16/04/24" 
+          "idroom": "15",
+          "type": "3bd"
         },
         {
-            "id":"b0002ab",
-            "cinema_id":"345sdfcg",
-            "schedule":"16:00",
-            "movie_id":"359410",
-            "idroom":"11",
-            "date":"13/04/24" 
-        },
-        {
-            "id":"b0003ab",
-            "cinema_id": ["345sdfcg","305sdfcg"],
-            "schedule":"15:00",
-            "movie_id":"634492",
-            "idroom":"11",
-            "date":"13/04/24" 
-        },
-        {
-            "id":"b0004ab",
-            "cinema_id": "345sdfcg",
-            "schedule":"18:00",
-            "movie_id":"763215",
-            "idroom":"23",
-            "date":"13/04/24" 
-        },
-        {
-            "id":"b0005ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"13:00",
-            "movie_id":"940551",
-            "idroom":"23",
-            "date":"10/04/24" 
-        },
-        {
-            "id":"b0006ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"17:00",
-            "movie_id":"1096197",
-            "idroom":"23",
-            "date":"10/04/24" 
-        },
-        {
-            "id":"b0007ab",
-            "cinema_id": ["345sdfcg","301sdfcg"],
-            "schedule":"18:00",
-            "movie_id":"693134",
-            "idroom":"11",
-            "date":"11/04/24" 
-        },
-        {
-            "id":"b0008ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"15:00",
-            "movie_id":"969492",
-            "idroom":"11",
-            "date":"11/04/24" 
-        },
-        {
-            "id":"b0009ab",
-            "cinema_id": "345sdfcg",
-            "schedule":"13:00",
-            "movie_id":"1239251",
-            "idroom":"11",
-            "date":"10/04/24" 
-        },
-        {
-            "id":"b0010ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"13:00",
-            "movie_id":"615",
-            "idroom":"23",
-            "date":"05/04/24" 
-        },
-        {
-            "id":"b0011ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"19:00",
-            "movie_id":"932420",
-            "idroom":"23",
-            "date":"05/04/24" 
-        },
-        {
-            "id":"b0012ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"16:00",
-            "movie_id":"848538",
-            "idroom":"23",
-            "date":"03/04/24" 
-        },
-        {
-            "id":"b0013ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"17:00",
-            "movie_id":"1046090",
-            "idroom":"11",
-            "date":"09/04/24" 
-        },
-        {
-            "id":"b0014ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"19:00",
-            "movie_id":"792307",
-            "idroom":"23",
-            "date":"08/04/24" 
-        },
-        {
-            "id":"b0015ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"19:00",
-            "movie_id":"1072790",
-            "idroom":"11",
-            "date":"08/04/24" 
-        },
-        {
-            "id":"b0016ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"19:00",
-            "movie_id":"438631",
-            "idroom":"11",
-            "date":"10/04/24" 
-        },
-        {
-            "id":"b0017ab",
-            "cinema_id": "305sdfcg",
-            "schedule":"18:00",
-            "movie_id":"1022796",
-            "idroom":"11",
-            "date":"03/04/24" 
-        },
-        {
-            "id":"b0018ab",
-            "cinema_id": "301sdfcg",
-            "schedule":"18:00",
-            "movie_id":"967847",
-            "idroom":"23",
-            "date":"12/04/24" 
+          "idroom": "03",
+          "type": "df45"
         }
-        
-    ],
-
-    "purchased_tickets":{
-        "id":"98caf2",
-        "idFuntion":"A12",
-        "tickets":[
-            {
-            "type":"adulto",
-            "quantity":2
-            },
-            {
-            "type":"niño",
-            "quantity":2
-            }
-        ],
-        "seatsPay":["A2","A3","A4","A5"],
-        "codPay":"de287f"
+      ],
+      "funtions": [
+        "b0005ab",
+        "b0007ab",
+        "b0011ab",
+        "b0012ab",
+        "b0015ab",
+        "b0016ab",
+        "b0018ab"
+      ]
     }
+  ],
+  "typeRooms": [
+    {
+      "id": "A34",
+      "seats": 250,
+      "row": 14,
+      "col": 15,
+      "type": "big"
+    },
+
+    {
+      "id": "3bd",
+      "seats": 85,
+      "row": 7,
+      "col": 13,
+      "type": "small"
+    },
+    {
+      "id": "df45",
+      "seats": 300,
+      "row": 28,
+      "col": 11,
+      "type": "max"
+    }
+  ],
+
+  "funtion": [
+    {
+      "id": "b0001ab",
+      "cinema_id": "345sdfcg",
+      "schedule": "14:00",
+      "movie_id": "1011985",
+      "idroom": "11",
+      "date": "16/04/24"
+    },
+    {
+      "id": "b0002ab",
+      "cinema_id": "345sdfcg",
+      "schedule": "16:00",
+      "movie_id": "359410",
+      "idroom": "11",
+      "date": "13/04/24"
+    },
+    {
+      "id": "b0003ab",
+      "cinema_id": ["345sdfcg", "305sdfcg"],
+      "schedule": "15:00",
+      "movie_id": "634492",
+      "idroom": "11",
+      "date": "13/04/24"
+    },
+    {
+      "id": "b0004ab",
+      "cinema_id": "345sdfcg",
+      "schedule": "18:00",
+      "movie_id": "763215",
+      "idroom": "23",
+      "date": "13/04/24"
+    },
+    {
+      "id": "b0005ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "13:00",
+      "movie_id": "940551",
+      "idroom": "23",
+      "date": "10/04/24"
+    },
+    {
+      "id": "b0006ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "17:00",
+      "movie_id": "1096197",
+      "idroom": "23",
+      "date": "10/04/24"
+    },
+    {
+      "id": "b0007ab",
+      "cinema_id": ["345sdfcg", "301sdfcg"],
+      "schedule": "18:00",
+      "movie_id": "693134",
+      "idroom": "11",
+      "date": "11/04/24"
+    },
+    {
+      "id": "b0008ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "15:00",
+      "movie_id": "969492",
+      "idroom": "11",
+      "date": "11/04/24"
+    },
+    {
+      "id": "b0009ab",
+      "cinema_id": "345sdfcg",
+      "schedule": "13:00",
+      "movie_id": "1239251",
+      "idroom": "11",
+      "date": "10/04/24"
+    },
+    {
+      "id": "b0010ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "13:00",
+      "movie_id": "615",
+      "idroom": "23",
+      "date": "05/04/24"
+    },
+    {
+      "id": "b0011ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "19:00",
+      "movie_id": "932420",
+      "idroom": "23",
+      "date": "05/04/24"
+    },
+    {
+      "id": "b0012ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "16:00",
+      "movie_id": "848538",
+      "idroom": "23",
+      "date": "03/04/24"
+    },
+    {
+      "id": "b0013ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "17:00",
+      "movie_id": "1046090",
+      "idroom": "11",
+      "date": "09/04/24"
+    },
+    {
+      "id": "b0014ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "19:00",
+      "movie_id": "792307",
+      "idroom": "23",
+      "date": "08/04/24"
+    },
+    {
+      "id": "b0015ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "19:00",
+      "movie_id": "1072790",
+      "idroom": "11",
+      "date": "08/04/24"
+    },
+    {
+      "id": "b0016ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "19:00",
+      "movie_id": "438631",
+      "idroom": "11",
+      "date": "10/04/24"
+    },
+    {
+      "id": "b0017ab",
+      "cinema_id": "305sdfcg",
+      "schedule": "18:00",
+      "movie_id": "1022796",
+      "idroom": "11",
+      "date": "03/04/24"
+    },
+    {
+      "id": "b0018ab",
+      "cinema_id": "301sdfcg",
+      "schedule": "18:00",
+      "movie_id": "967847",
+      "idroom": "23",
+      "date": "12/04/24"
+    }
+  ],
+
+  "purchased_tickets": [
+    {
+      "id": "33765",
+      "idFuntion": "b0001ab",
+      "tickets": [
+        {
+          "type": "adulto",
+          "quantity": 2
+        },
+        {
+          "type": "niño",
+          "quantity": 2
+        }
+      ],
+      "seatsPay": ["A2", "A3", "A4", "A5"],
+      "codPay": "de287f"
+    },
+    {
+      "id": "98caf2",
+      "idFuntion": "b0018ab",
+      "tickets": [
+        {
+          "type": "adulto",
+          "quantity": 2
+        },
+        {
+          "type": "niño",
+          "quantity": 2
+        }
+      ],
+      "seatsPay": ["A2", "A3", "A4", "A5"],
+      "codPay": "de287f"
+    },
+    {
+      "id": "789dfe",
+      "idFuntion": "b0002ab",
+      "tickets": [
+        {
+          "type": "adulto",
+          "quantity": 1
+        },
+        {
+          "type": "niño",
+          "quantity": 3
+        }
+      ],
+      "seatsPay": ["B1", "B2", "B3", "B4"],
+      "codPay": "ab384g"
+    },
+    {
+      "id": "b27a9f",
+      "idFuntion": "b0010ab",
+      "tickets": [
+        {
+          "type": "adulto",
+          "quantity": 3
+        },
+        {
+          "type": "niño",
+          "quantity": 1
+        }
+      ],
+      "seatsPay": ["C5", "C6", "C7", "C8"],
+      "codPay": "cd829h"
+    },
+    {
+      "id": "a1b2c3",
+      "idFuntion": "b0001ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 1 },
+        { "type": "niño", "quantity": 1 }
+      ],
+      "seatsPay": ["B1", "B2"],
+      "codPay": "ef452g"
+    },
+    {
+      "id": "d4e5f6",
+      "idFuntion": "b0002ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 2 },
+        { "type": "niño", "quantity": 2 }
+      ],
+      "seatsPay": ["C3", "C4", "C5", "C6"],
+      "codPay": "gh672i"
+    },
+    {
+      "id": "g7h8i9",
+      "idFuntion": "b0003ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 3 },
+        { "type": "niño", "quantity": 1 }
+      ],
+      "seatsPay": ["D7", "D8", "D9", "D10"],
+      "codPay": "ij983k"
+    },
+    {
+      "id": "j0k1l2",
+      "idFuntion": "b0004ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 2 },
+        { "type": "niño", "quantity": 2 }
+      ],
+      "seatsPay": ["E1", "E2", "E3", "E4"],
+      "codPay": "kl574m"
+    },
+    {
+      "id": "n3o4p5",
+      "idFuntion": "b0005ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 2 },
+        { "type": "niño", "quantity": 1 }
+      ],
+      "seatsPay": ["F5", "F6", "F7"],
+      "codPay": "op257q"
+    },
+    {
+      "id": "m1n2o3",
+      "idFuntion": "b0001ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 2 },
+        { "type": "niño", "quantity": 1 }
+      ],
+      "seatsPay": ["C6", "C7", "D1"],
+      "codPay": "qr365s"
+    },
+    {
+      "id": "p4q5r6",
+      "idFuntion": "b0001ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 1 },
+        { "type": "niño", "quantity": 1 }
+      ],
+      "seatsPay": ["C2", "C3"],
+      "codPay": "st789u"
+    },
+    {
+      "id": "v7w8x9",
+      "idFuntion": "b0001ab",
+      "tickets": [
+        { "type": "adulto", "quantity": 1 },
+        { "type": "niño", "quantity": 2 }
+      ],
+      "seatsPay": ["D4", "D5", "D6"],
+      "codPay": "uv432w"
+    }
+  ]
 }
